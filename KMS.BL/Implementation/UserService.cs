@@ -1,4 +1,4 @@
-﻿using AutoMapper;
+﻿
 using KMS.DB;
 using KMS.DB.Abstract;
 using KMS.Model;
@@ -11,6 +11,7 @@ namespace KMS.BL
 {
     /// <summary>
     ///  TODO : We can think on this to use AutoMapper with Datatable instead of manually mapping values.
+    ///  https://stackoverflow.com/questions/18376313/setting-up-a-common-nuget-packages-folder-for-all-solutions-when-some-projects-a
     /// </summary>
     public class UserService : IUserService
     {
