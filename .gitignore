@@ -1,0 +1,25 @@
+KMS.UI/bin/
+KMS.UI/packages/
+KMS.BL/obj/
+KMS.DB/obj/
+KMS.UI/obj/
+KMS.UI/.vs/
+/KMS.Service/bin
+/KMS.Service/obj/Release
+/KMS.UI/Properties/PublishProfiles/kamethi - Web Deploy.pubxml
+/KMS.DbScript/bin/Release
+/KMS.DbScript/obj/Release
+/KMS.DbScript/KMS.DbScript.dbmdl
+/KMS.DbScript/KMS.DbScript.jfm
+/KMS.DB/bin
+/KMS.DbScript/bin/Debug
+/KMS.DbScript/obj/Debug
+/KMS.Service/.vs/KMS.Service/config
+/KMS.Service/obj/Debug
+/KMS/.vs/KMS
+/KMS/bin
+/KMS/packages
+/KMS/KMS.UI/bin
+/KMS/KMS.UI/obj/Debug
+/KMS/KMS.Model/obj/Debug
+/KMS/KMS.Utitlities/obj/Debug
