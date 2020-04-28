@@ -24,7 +24,7 @@ namespace KMS.DB
             using (SqlCommand cmd = new SqlCommand())
             {
                 cmd.CommandType = CommandType.StoredProcedure;
-                cmd.CommandText = "Usp_PopulateMonthlyTransaction";
+                cmd.CommandText = "Proc_GetUser";
                 return Execute(ConfigurationHelper.ConnectionString, cmd);
             }
         }

@@ -51,6 +51,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Abstract\BaseRepository.cs" />
+    <Compile Include="Abstract\IMonthlyTransactionRepository.cs" />
     <Compile Include="Abstract\IUserRepository.cs" />
     <Compile Include="KmsModel.Context.cs">
       <AutoGen>True</AutoGen>
@@ -67,6 +68,7 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>KmsModel.edmx</DependentUpon>
     </Compile>
+    <Compile Include="MonthlyTransactionRepository.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="User.cs">
       <DependentUpon>KmsModel.tt</DependentUpon>
@@ -102,6 +104,10 @@
     <Service Include="{508349B6-6B84-4DF5-91F0-309BEEBAD82D}" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\KMS\KMS.Model\KMS.Model.csproj">
+      <Project>{D34D24D2-C9E3-42A0-9980-BAA32BF5AA75}</Project>
+      <Name>KMS.Model</Name>
+    </ProjectReference>
     <ProjectReference Include="..\KMS\KMS.Utitlities\KMS.Utitlities.csproj">
       <Project>{a05d2797-5dd4-4891-83d2-1d954ebf6890}</Project>
       <Name>KMS.Utitlities</Name>
